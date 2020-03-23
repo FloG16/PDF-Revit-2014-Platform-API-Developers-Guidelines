@@ -1,6 +1,8 @@
 /* Procédure pas à pas: récupérer des éléments sélectionnés
 Cette section présente une application complémentaire qui récupère les éléments sélectionnés de Revit.
-Dans les applications complémentaires, vous pouvez effectuer une opération spécifique sur un élément spécifique. Par exemple, vous pouvez obtenir ou modifier la valeur du paramètre d'un élément. Effectuez les étapes suivantes pour obtenir une valeur de paramètre:
+Dans les applications complémentaires, vous pouvez effectuer une opération spécifique sur un élément spécifique. Par exemple, 
+vous pouvez obtenir ou modifier la valeur du paramètre d'un élément. Effectuez les étapes suivantes pour obtenir une valeur de 
+paramètre:
 1. Créez un nouveau projet et ajoutez les références telles que résumées dans les précédentes procédures pas à pas.
 2. Utilisez la propriété UIApplication.ActiveUIDocument.Selection.Elements pour récupérer l'objet sélectionné.
 L'objet sélectionné est un Revit SelElementSet. Utilisez l'interface IEnumerator ou la boucle foreach pour rechercher le ElementSet.
